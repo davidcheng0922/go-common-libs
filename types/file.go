@@ -23,7 +23,7 @@ const (
 type DiskStat struct {
 	DiskID           string
 	Name             string
-	Path             string
+	Path             []string
 	Type             string
 	Driver           DiskDriver
 	FreeBlocks       int64
